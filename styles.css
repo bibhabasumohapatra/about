@@ -71,6 +71,7 @@
 .moreInfoSectionHeading{
     text-decoration: underline;
     text-decoration-color: orange;
+    text-align: center;
 }
 
 .portfolioSecton{
@@ -135,3 +136,14 @@
     object-fit: cover;
 }
 
+
+@media (max-width: 900px) { 
+    .testimonialImage{
+        float: none;
+        max-width: 100%;;
+        margin: 0 50% 0 40% !important;
+    }
+    .alignCenter{
+        text-align: center;
+    }
+}
