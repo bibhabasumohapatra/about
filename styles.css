@@ -4,22 +4,21 @@
 }
 .aboutSection{
     width: 100%;
-    height: 90vh;
+    /* height: 90vh; */
     background-image: url("https://reactresume.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fheader-background.371f2b47.webp&w=1920&q=75");
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    object-fit:fill;
+    justify-content: center;*/
+    object-fit:fill; 
 }
 .aboutContent{
     background: rgba(0, 0, 0, 0.3);
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    /* width: 60%; */
+    padding: 0;
+    margin: 0;
 }
 .aboutHeader{
+    text-align: center;
     font:bold;
     color: white;
     font-weight: 700;
@@ -36,6 +35,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.aboutButtons{
+    text-align: center;
 }
 .icons:hover{
     cursor: pointer;
@@ -127,3 +129,9 @@
     text-align: center;
     color:white;
 }
+.card-img-top{
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
